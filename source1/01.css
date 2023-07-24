@@ -1,0 +1,82 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.section{
+    padding: 15px;
+}
+
+.container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coloritem{
+    background: white;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 16px;
+    padding: 15px;
+}
+.chart {
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+.text {
+    margin-top: 10px;
+  }
+  
+.h1 {
+    text-align: center;
+  }
+.h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead th {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  tbody td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tbody td:last-child {
+    text-align: center;
+  }
+  
+  

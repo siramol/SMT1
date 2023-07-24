@@ -1,0 +1,56 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.section{
+    padding: 15px;
+}
+
+.container{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coloritem{
+    background: white;
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 16px;
+    padding: 15px;
+}
+canvas {
+    max-width: 400px;
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .card canvas {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
